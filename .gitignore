@@ -1,0 +1,21 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and environment variables
+.venv/
+venv/
+.env
+.env.*
+
+# Streamlit local credentials
+.streamlit/secrets.toml
+
+# Operating system / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
