@@ -37,7 +37,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-.block-container {padding-top: 2rem; padding-bottom: 3.5rem; max-width: 1450px;}
+.block-container {padding-top: 5rem; padding-bottom: 3.5rem; max-width: 1450px;}
 .fcm-subtitle {color: #64748b; font-size: 1.05rem; margin-top: -.65rem; margin-bottom: 1.4rem;}
 .fcm-note {border-left: 3px solid #0e7490; padding: .7rem 1rem;
            background: rgba(14,116,144,.055); border-radius: 0 .4rem .4rem 0;}
