@@ -1,0 +1,60 @@
+{
+  "model_version": "1.0.0",
+  "disclaimer": "Illustrative steady-state calculation; not experimentally validated or a design certification.",
+  "membrane": {
+    "name": "Reference membrane",
+    "thickness_um": 50.0,
+    "conductivity_ref_s_cm": 0.1,
+    "activation_energy_kj_mol": 12.0,
+    "hydration_exponent": 1.5,
+    "reference_temp_c": 80.0
+  },
+  "operating_conditions": {
+    "temperature_c": 80.0,
+    "anode_pressure_bar": 1.5,
+    "cathode_pressure_bar": 1.5,
+    "anode_rh_pct": 90.0,
+    "cathode_rh_pct": 90.0,
+    "oxygen_fraction_dry": 0.21,
+    "active_area_cm2": 100.0,
+    "cell_count": 40,
+    "hydrogen_feed_stoich": 1.5,
+    "air_feed_stoich": 2.0
+  },
+  "kinetics": {
+    "effective_exchange_current_a_cm2": 0.008,
+    "charge_transfer_coefficient": 0.5,
+    "effective_electrons": 1.0,
+    "limiting_current_a_cm2": 1.8,
+    "transport_multiplier": 3.5,
+    "other_asr_ohm_cm2": 0.04
+  },
+  "selected_current_density_A_cm2": 1.0,
+  "operating_point": {
+    "current_density_A_cm2": 1.0,
+    "operational": true,
+    "reversible_voltage_V": 1.171989309633096,
+    "cell_voltage_V": 0.7363660852947621,
+    "cell_current_A": 100.0,
+    "stack_voltage_V": 29.454643411790485,
+    "stack_power_W": 2945.4643411790485,
+    "power_density_W_cm2": 0.7363660852947621,
+    "hhv_voltage_efficiency_pct": 49.72087004015949,
+    "lhv_voltage_efficiency_pct": 58.7682430402843,
+    "membrane_conductivity_S_cm": 0.08538149682454625,
+    "membrane_asr_ohm_cm2": 0.05856069741052554,
+    "total_asr_ohm_cm2": 0.09856069741052553,
+    "activation_loss_V": 0.2938754678006684,
+    "ohmic_loss_V": 0.09856069741052553,
+    "transport_loss_V": 0.04318705912713991,
+    "hydrogen_consumption_g_h": 150.43049219075436,
+    "hydrogen_feed_g_h": 225.64573828613155,
+    "oxygen_consumption_mol_h": 37.311370763823824,
+    "dry_oxidant_feed_mol_h": 355.34638822689357
+  },
+  "maximum_modelled_power_point": {
+    "current_density_A_cm2": 1.5729,
+    "power_density_W_cm2": 0.9205789807278816,
+    "cell_voltage_V": 0.5852749575484021
+  }
+}
