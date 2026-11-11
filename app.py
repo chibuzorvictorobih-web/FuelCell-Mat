@@ -39,8 +39,6 @@ st.markdown("""
 <style>
 .block-container {padding-top: 2rem; padding-bottom: 3.5rem; max-width: 1450px;}
 .fcm-subtitle {color: #64748b; font-size: 1.05rem; margin-top: -.65rem; margin-bottom: 1.4rem;}
-.fcm-kicker {text-transform: uppercase; letter-spacing: 0.12em; font-size: .72rem;
-             color: #0e7490; font-weight: 700; margin-bottom: .25rem;}
 .fcm-note {border-left: 3px solid #0e7490; padding: .7rem 1rem;
            background: rgba(14,116,144,.055); border-radius: 0 .4rem .4rem 0;}
 [data-testid="stMetric"] {background: rgba(148,163,184,.075); padding: 12px;
@@ -48,7 +46,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="fcm-kicker">Materials for energy conversion · PEMFC</div>', unsafe_allow_html=True)
+st.markdown("**MATERIALS FOR ENERGY CONVERSION · PEMFC**")
 st.title("FuelCell-Mat")
 st.markdown('<div class="fcm-subtitle">Calculate cell voltage, stack power, hydrogen demand and membrane performance using an illustrative PEM fuel-cell model.</div>', unsafe_allow_html=True)
 
